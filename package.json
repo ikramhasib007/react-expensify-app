@@ -6,7 +6,8 @@
   "scripts": {
     "test": "testIt",
     "serve": "live-server public/",
-    "build": "webpack",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server"
   },
   "author": "Ikram Hasib",
@@ -21,6 +22,7 @@
     "babel-preset-react": "^6.24.1",
     "bootstrap": "4.1.0",
     "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "jquery": "^3.3.1",
     "live-server": "^1.2.0",
     "moment": "^2.22.1",

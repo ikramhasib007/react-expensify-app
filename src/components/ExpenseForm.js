@@ -98,7 +98,6 @@ export default class ExpenseForm extends Component {
                 onFocusChange={this.onFocusChange}
                 isOutsideRange={() => false}
                 numberOfMonths={1}
-                noBorder={true}
                 block={true}
                 small={true}
                 readOnly={true}/>
