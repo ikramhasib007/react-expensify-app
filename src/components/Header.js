@@ -23,7 +23,7 @@ const Header = () => (
                     </li>
                 </ul>
                 <a href="https://ikram-ud-daula-indecision-app.herokuapp.com/" className="btn btn-outline-light btn-sm ml-2">Indecision App</a>
-                <a href="https://ikram-ud-daula-angularjs.herokuapp.com/" className="btn btn-outline-light btn-sm ml-2">Angular App</a>
+                <a href="https://ikram-ud-daula-angularjs.herokuapp.com/" target="_blank" className="btn btn-outline-light btn-sm ml-2">Angular App</a>
             </div>
         </div>
     </nav>
