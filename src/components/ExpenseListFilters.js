@@ -15,7 +15,7 @@ const ExpenseListFilters = (props) => (
       }}/>
     </div>
     <div className="col">
-      <div className="input-group mb-3">
+      <div className="input-group">
         <div className="input-group-prepend">
           <span className="input-group-text">Sort By</span>
         </div>
