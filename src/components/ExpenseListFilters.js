@@ -22,7 +22,7 @@ class ExpenseListFilters extends Component {
         <div className="col">
           <input
             type="text"
-            className="form-control form-control-lg"
+            className="form-control"
             placeholder="Search..."
             value={this.props.filters.text}
             onChange={(e) => {
@@ -35,7 +35,7 @@ class ExpenseListFilters extends Component {
               <span className="input-group-text">Sort By</span>
             </div>
             <select
-              className="custom-select form-control-lg"
+              className="custom-select"
               value={this.props.filters.sortBy}
               onChange={(e) => {
               if (e.target.value === 'date') {

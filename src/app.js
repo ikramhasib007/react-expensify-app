@@ -6,13 +6,15 @@ import {addExpense} from './actions/expenses';
 import {setTextFilter} from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
 import AppRouter from './routers/AppRouter';
+import moment from 'moment';
 import 'normalize.css/normalize.css';
 import './styles/style.scss';
 
 const store = configureStore();
-store.dispatch(addExpense({description: 'Water Bill', amount: 500, createdAt:1524463200000, note:'Paid through Agrani Bank'}));
-store.dispatch(addExpense({description: 'Gas Bill', amount: 800, createdAt:1524549600000, note:'Paid through Agrani Bank'}));
-store.dispatch(addExpense({description: 'House Rent', amount: 10000, createdAt:1524549600000, note:'Cash send by bKash'}));
+store.dispatch(addExpense({description: 'Water Bill', amount: 500, createdAt:moment().subtract(15,'d'), note:'Paid through Agrani Bank. Rampura Branch, Dhaka, Bangladeh.'}));
+store.dispatch(addExpense({description: 'Gas Bill', amount: 800, createdAt:moment().subtract(10,'d'), note:'Paid through Agrani Bank. Badda Branch, Dhaka, Bangladeh.'}));
+store.dispatch(addExpense({description: 'House Rent', amount: 10000, createdAt:moment().subtract(2,'d'), note:'Cash send by bKash. Nearest bKash agent. Dhaka, Bangladesh'}));
+store.dispatch(addExpense({description: 'Utility Rent', amount: 1200, createdAt:moment(), note:'Cash send by bKash. Nearest bKash agent. Dhaka, Bangladesh'}));
 
 
 const state = store.getState();
