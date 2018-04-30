@@ -16,7 +16,6 @@ store.dispatch(addExpense({description: 'Water Bill', amount: 500, createdAt:mom
 store.dispatch(addExpense({description: 'House Rent', amount: 10000, createdAt:moment().subtract(2,'d'), note:'Cash send by bKash. Nearest bKash agent. Dhaka, Bangladesh'}));
 store.dispatch(addExpense({description: 'Utility Rent', amount: 1200, createdAt:moment(), note:'Cash send by bKash. Nearest bKash agent. Dhaka, Bangladesh'}));
 
-
 const state = store.getState();
 const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 
