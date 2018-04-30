@@ -10,8 +10,8 @@ import 'normalize.css/normalize.css';
 import './styles/style.scss';
 
 const store = configureStore();
-store.dispatch(addExpense({description: 'Water Bill', amount: 500, createdAt:1524463200000, note:'On Agrani Bank'}));
-store.dispatch(addExpense({description: 'Gas Bill', amount: 800, createdAt:1524549600000, note:'On Agrani Bank'}));
+store.dispatch(addExpense({description: 'Water Bill', amount: 500, createdAt:1524463200000, note:'Paid through Agrani Bank'}));
+store.dispatch(addExpense({description: 'Gas Bill', amount: 800, createdAt:1524549600000, note:'Paid through Agrani Bank'}));
 store.dispatch(addExpense({description: 'House Rent', amount: 10000, createdAt:1524549600000, note:'Cash send by bKash'}));
 
 
