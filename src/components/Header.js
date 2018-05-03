@@ -13,13 +13,13 @@ const Header = () => (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link" activeClassName="is-active" exact={true}>Home </NavLink>
+                        <NavLink to="/" className="nav-link" activeClassName="active" exact={true}>Home </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/create" className="nav-link" activeClassName="is-active">Create </NavLink>
+                        <NavLink to="/create" className="nav-link" activeClassName="active">Create </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/help" className="nav-link" activeClassName="is-active">Help </NavLink>
+                        <NavLink to="/about" className="nav-link" activeClassName="active">About </NavLink>
                     </li>
                 </ul>
                 <a href="https://ikram-ud-daula-indecision-app.herokuapp.com/" className="btn btn-outline-light btn-sm ml-2">Indecision App</a>
