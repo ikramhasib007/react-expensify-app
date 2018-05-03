@@ -22,7 +22,8 @@ const jsx = (
     </Provider>
 );
 
-ReactDOM.render(<p className="loader"></p>, document.getElementById('app'));
+
+ReactDOM.render(<div className="loader"><img src="/images/loader.gif"/></div>, document.getElementById('app'));
 
 store.dispatch(startSetExpenses()).then(() => {
     ReactDOM.render(jsx, document.getElementById('app'));
