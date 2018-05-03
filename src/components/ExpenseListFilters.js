@@ -19,18 +19,18 @@ class ExpenseListFilters extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col">
+        <div className="col-lg-4 col-md-6">
           <input
             type="text"
-            className="form-control"
+            className="form-control mb-1"
             placeholder="Search..."
             value={this.props.filters.text}
             onChange={(e) => {
             this.props.dispatch(setTextFilter(e.target.value));
           }}/>
         </div>
-        <div className="col">
-          <div className="input-group">
+        <div className="col-lg-4 col-md-6">
+          <div className="input-group mb-1">
             <div className="input-group-prepend">
               <span className="input-group-text">Sort By</span>
             </div>
@@ -49,7 +49,7 @@ class ExpenseListFilters extends Component {
             </select>
           </div>
         </div>
-        <div className="col">
+        <div className="col-lg-4 col-md-12">
         <DateRangePicker
           startDate={this.props.filters.startDate} 
           startDateId={'fsdfdsdfsfs'}
