@@ -99,7 +99,6 @@ export default class ExpenseForm extends Component {
                 isOutsideRange={() => false}
                 numberOfMonths={1}
                 block={true}
-                small={true}
                 readOnly={true}/>
             </div>
           </div>
