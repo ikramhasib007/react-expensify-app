@@ -63,6 +63,7 @@ class ExpenseListFilters extends Component {
           showClearDates={true}
           block={true}
           readOnly={true}
+          small={true}
         />
         </div>
       </div>
