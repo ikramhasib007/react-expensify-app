@@ -1,7 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import {connect} from 'react-redux';
+import {startLogout} from '../actions/auth';
 
-const Header = () => (
+const Header = ({startLogout}) => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
             <NavLink to="/" className="navbar-brand">Expensify</NavLink>
@@ -13,7 +15,7 @@ const Header = () => (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link" activeClassName="active" exact={true}>Home </NavLink>
+                        <NavLink to="/dashboard" className="nav-link" activeClassName="active" exact={true}>Home </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/create" className="nav-link" activeClassName="active">Create </NavLink>
@@ -24,9 +26,16 @@ const Header = () => (
                 </ul>
                 <a href="https://ikram-ud-daula-indecision-app.herokuapp.com/" className="btn btn-outline-light btn-sm ml-2">Indecision App</a>
                 <a href="https://ikram-ud-daula-angularjs.herokuapp.com/" target="_blank" className="btn btn-outline-light btn-sm ml-2">Angular App</a>
+                <button 
+                    onClick={startLogout}
+                    className="btn btn-outline-danger btn-sm ml-2">Logout</button>
             </div>
         </div>
     </nav>
 );
- 
-export default Header;
+
+const mapDispatchToProps = (dispatch) => ({
+    startLogout: () => dispatch(startLogout())
+});
+
+export default connect(undefined, mapDispatchToProps)(Header);

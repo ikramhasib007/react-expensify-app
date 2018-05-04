@@ -31,10 +31,10 @@ const AboutPage = () => (
     <div className="bs-callout bg-light bs-callout-success mt-0">
       <h4 className="font-weight-bold">Expensify Project Build By Using</h4>
       <p className="lead text-dark">
-        <strong className="pr-2">React.js</strong>
-        <strong className="p-2">Redux</strong>
-        <strong className="p-2">Firebase</strong>
-        <strong className="p-2">ES6</strong>
+        <strong className="pr-1">React.js,</strong>
+        <strong className="p-1">Redux,</strong>
+        <strong className="p-1">Firebase,</strong>
+        <strong className="p-1">ES6</strong>
       </p>
     </div>
   </div>
