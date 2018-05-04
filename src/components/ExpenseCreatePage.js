@@ -9,7 +9,7 @@ const ExpenseCreatePage = (props) => (
       <ExpenseForm
         onSubmit={(expense) => {
         props.dispatch(startAddExpense(expense));
-        props.history.push('/');
+        props.history.push('/dashboard');
       }}/>
     </div>
   </div>
