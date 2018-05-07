@@ -7,7 +7,7 @@ const AboutPage = () => (
       <div className="container row m-0 p-0">
         <div className="card col-md-4 p-0 rounded-0 my--5">
           <img
-            className="card-img-top rounded-0"
+            className="card-img-top img-thumbnail rounded-0"
             src="assets/resume/img/profile.jpg"
             alt="Card image cap"
             height= "100%"/>
@@ -18,7 +18,7 @@ const AboutPage = () => (
             <h6>SCT-Bangla Limited, Banasree, Dhaka.</h6>
             <p className="lead">Uses Technology: PHP, Laravel, AngularJS (1x), Javascript</p>
           </div>
-          <div className="d-flex justify-content-around">
+          <div className="d-flex justify-content-around mt-2">
               <a href="https://www.facebook.com/ikramhasib007" target="_blank"><i className="fab fa-facebook fa-3x"></i></a>
               <a href="https://www.linkedin.com/in/ikram-ud-daula/" target="_blank" className="text-info"><i className="fab fa-linkedin fa-3x"></i></a>
               <a href="https://github.com/ikramhasib007" target="_blank" className="text-dark"><i className="fab fa-github-square fa-3x"></i></a>
