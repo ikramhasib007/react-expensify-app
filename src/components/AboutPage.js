@@ -7,7 +7,7 @@ const AboutPage = () => (
       <div className="container row m-0 p-0">
         <div className="card col-md-4 p-0 rounded-0 my--5">
           <img
-            className="card-img-top img-thumbnail rounded-0"
+            className="card-img-top rounded-0"
             src="assets/resume/img/profile.jpg"
             alt="Card image cap"
             height= "100%"/>
