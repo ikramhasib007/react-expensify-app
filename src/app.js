@@ -9,6 +9,8 @@ import AppRouter, {history} from './routers/AppRouter';
 import moment from 'moment';
 import 'normalize.css/normalize.css';
 import './styles/style.scss';
+import 'react-dates/lib/css/_datepicker.css';
+import 'react-dates/initialize';
 import {firebase} from './firebase/firebase';
 
 const store = configureStore();

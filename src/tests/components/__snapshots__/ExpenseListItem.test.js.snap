@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem with item 1`] = `
+<div
+  className="col-sm-6 mb-4"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <h4
+        className="card-title"
+      >
+        <Link
+          replace={false}
+          to="/edit/1"
+        >
+          Gas Bill
+        </Link>
+      </h4>
+      <h6
+        className="card-text"
+      >
+        $12.00
+         - 
+        01 January, 1970
+      </h6>
+    </div>
+  </div>
+</div>
+`;

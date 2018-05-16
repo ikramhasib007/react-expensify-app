@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import {connect} from 'react-redux';
 import {startLogout} from '../actions/auth';
 
-class Header extends Component {
+export class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
