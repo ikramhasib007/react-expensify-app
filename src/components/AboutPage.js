@@ -23,7 +23,7 @@ const AboutPage = () => (
               <a href="https://www.linkedin.com/in/ikram-ud-daula/" target="_blank" className="text-info"><i className="fab fa-linkedin fa-3x"></i></a>
               <a href="https://github.com/ikramhasib007" target="_blank" className="text-dark"><i className="fab fa-github-square fa-3x"></i></a>
               <a href="https://stackoverflow.com/users/5461148/ikram-ud-daula" className="text-warning" target="_blank"><i className="fab fa-stack-overflow fa-3x"></i></a>
-              <a href="https://www.dropbox.com/s/6ubj8oodgd2pyf0/Ikram_2yrs.pdf?dl=0" title="CV" className="text-secondary" target="_blank"><i className="fas fa-user-circle fa-3x"></i></a>
+              <a href="https://www.dropbox.com/s/ucatbh14ymlqplh/IKRAM-UD-DAULA_CV_NEW.pdf?dl=0" title="CV" className="text-secondary" target="_blank"><i className="fas fa-user-circle fa-3x"></i></a>
           </div>
         </div>
       </div>
