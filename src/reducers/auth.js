@@ -8,7 +8,7 @@ const authReducer = (state = {}, action) => {
       return {};
     default:
       return state;
-  };
+  }
 };
 
 export default authReducer;
